@@ -1,20 +1,17 @@
-\# ✈️ Airline Ticket Price Prediction (MLOps Lab Project)
+✈️ Airline Ticket Price Prediction (MLOps Project)
 
-
-
-\## Overview
+Overview
 
 This project predicts airline ticket prices using machine learning and an MLOps-style pipeline.  
 
 It includes preprocessing, model training, testing, and experiment logging.
 
 
+Dataset
 
-\## Dataset
+The dataset is **not included** in this repository due to size limits.  
 
-The dataset is \*\*not included\*\* in this repository due to size limits.  
-
-You can download it from \[Kaggle / Google Drive link] and place it in the `Data/` folder as `raw.csv`.
+You can download it from \[https://www.kaggle.com/datasets/rohitgrewal/airlines-flights-data] and place it in the `Data/` folder as `raw.csv`.
 
 
 
@@ -26,7 +23,7 @@ Columns include:
 
 
 
-\## Pipeline
+ Pipeline
 
 \- Config-driven design (`config.yaml`).
 
@@ -37,10 +34,7 @@ Columns include:
 \- Testing and logging (`test.py` → saves results to `experiments/results.csv`).
 
 
-
-\## Experiments
-
-Models tested:
+Experiments and Models tested:
 
 \- Linear Regression (baseline).
 
@@ -52,40 +46,28 @@ Models tested:
 
 
 
-\*\*Best model\*\*: RandomForestRegressor with log-transform  
+**Best model**: _RandomForestRegressor with log-transform_
 
 \- MAE ≈ 2114  
-
 \- R² ≈ 0.969  
 
 
-All experiment results will be saved in:
-experiments/results.csv
-
 📊 Results
-
-All experiment logs are saved in:
-
-experiments/results.csv
-
-
+All experiment logs are saved in: _experiments/results.csv_
 This file contains:
 
-Timestamp of each run
+\- Timestamp of each run
 
-Model type and parameters
+\- Model type and parameters
 
-Whether log-transform was applied
+\- Whether log-transform was applied
 
-Evaluation metrics (MAE, MSE, R²)
+\- Evaluation metrics (MAE, MSE, R²)
 
 👉 If you only want to check results without downloading the dataset or running the pipeline, simply open experiments/results.csv.
 
 
-
-
-
-\## 🚀 How to Run
+🚀 How to Run
 
 1\. Clone the repository:
 
@@ -95,7 +77,7 @@ Evaluation metrics (MAE, MSE, R²)
 
 &nbsp;  cd Airline-Price-Prediction
 
-2\. Download the dataset from \[(https://www.kaggle.com/datasets/rohitgrewal/airlines-flights-data].
+2\. Download the dataset from \[https://www.kaggle.com/datasets/rohitgrewal/airlines-flights-data].
 
 &nbsp;  Save it in the Data/ folder as:
 
@@ -112,12 +94,3 @@ Evaluation metrics (MAE, MSE, R²)
 5\. Test and log results:
 
 &nbsp;  type this cmd in the terminal:- python test.py
-
-
-
-
-
-All experiment results will be saved in:
-
-*experiments/results.csv*
-

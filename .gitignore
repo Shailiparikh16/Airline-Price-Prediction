@@ -181,9 +181,13 @@ cython_debug/
 .cursorindexingignore
 
 
-# Ignore data files
+# Ignore dataset files
 Data/
-*.csv
+Data/*.csv
+
+# But keep experiment results
+!experiments/
+!experiments/*.csv
 
 # Ignore model binaries
 *.pkl
