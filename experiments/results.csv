@@ -1,0 +1,10 @@
+timestamp,model,params,Log Transform,MAE,MSE,R2
+19-08-2025 22:49,LinearRegression,{},FALSE,4580.165861,46422664.69,0.9136317
+21-08-2025 00:16,RandomForestRegressor,"{'n_estimators': 200, 'max_depth': 10, 'random_state': 42}",FALSE,2609.752909,20775286.42,0.961348057
+21-08-2025 00:18,RandomForestRegressor,"{'n_estimators': 400, 'max_depth': 10, 'random_state': 42}",FALSE,2610.146091,20693341.8,0.961500514
+21-08-2025 00:19,RandomForestRegressor,"{'n_estimators': 200, 'max_depth': 20, 'random_state': 42}",FALSE,2321.069231,17983713.29,0.966541715
+21-08-2025 00:23,RandomForestRegressor,"{'n_estimators': 300, 'max_depth': 20, 'random_state': 42}",FALSE,2317.083311,17902969.6,0.966691937
+21-08-2025 00:34,GradientBoostingRegressor,"{'n_estimators': 200, 'max_depth': 5, 'learning_rate': 0.1, 'random_state': 42}",FALSE,2722.094356,20350323.06,0.962138692
+21-08-2025 00:38,GradientBoostingRegressor,"{'n_estimators': 500, 'max_depth': 5, 'learning_rate': 0.05, 'random_state': 42}",FALSE,2672.509927,20071910.71,0.962656672
+21-08-2025 00:57,GradientBoostingRegressor,"{'n_estimators': 500, 'max_depth': 5, 'learning_rate': 0.05, 'random_state': 42}",TRUE,2697.371046,22716130.26,0.957737162
+21-08-2025 12:24,RandomForestRegressor,"{'n_estimators': 200, 'max_depth': 20, 'random_state': 42}",TRUE,2114.834372,16645142.61,0.969032095
