@@ -9,7 +9,7 @@ It includes preprocessing, model training, testing, and experiment logging.
 
 Dataset
 
-The dataset is \*\*not included\*\* in this repository due to size limits.  
+The dataset is **not included** in this repository due to size limits.  
 
 You can download it from \[https://www.kaggle.com/datasets/rohitgrewal/airlines-flights-data] and place it in the `Data/` folder as `raw.csv`.
 
@@ -56,10 +56,13 @@ Experiments and Models tested:
 All experiment logs are saved in: _experiments/results.csv_
 This file contains:
 
-\-Timestamp of each run
-\-Model type and parameters
-\-Whether log-transform was applied
-\-Evaluation metrics (MAE, MSE, R²)
+\- Timestamp of each run
+
+\- Model type and parameters
+
+\- Whether log-transform was applied
+
+\- Evaluation metrics (MAE, MSE, R²)
 
 👉 If you only want to check results without downloading the dataset or running the pipeline, simply open experiments/results.csv.
 
