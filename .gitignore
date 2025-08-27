@@ -181,13 +181,21 @@ cython_debug/
 .cursorindexingignore
 
 
+<<<<<<< Updated upstream
 # Ignore dataset files
+=======
+# Ignore dataset files only
+>>>>>>> Stashed changes
 Data/
 Data/*.csv
 
 # But keep experiment results
 !experiments/
 !experiments/*.csv
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
 # Ignore model binaries
 *.pkl
