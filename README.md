@@ -11,7 +11,7 @@ Dataset
 
 The dataset is \*\*not included\*\* in this repository due to size limits.  
 
-You can download it from \[Kaggle / Google Drive link] and place it in the `Data/` folder as `raw.csv`.
+You can download it from \[https://www.kaggle.com/datasets/rohitgrewal/airlines-flights-data] and place it in the `Data/` folder as `raw.csv`.
 
 
 
@@ -34,9 +34,7 @@ Columns include:
 \- Testing and logging (`test.py` → saves results to `experiments/results.csv`).
 
 
-Experiments
-
-Models tested:
+Experiments and Models tested:
 
 \- Linear Regression (baseline).
 
@@ -48,18 +46,14 @@ Models tested:
 
 
 
-*\*Best model\*\*: RandomForestRegressor with log-transform  
+**Best model**: _RandomForestRegressor with log-transform_
 
 \- MAE ≈ 2114  
-
 \- R² ≈ 0.969  
 
 
 📊 Results
-
- All experiment logs are saved in: _experiments/results.csv_
-
-
+All experiment logs are saved in: _experiments/results.csv_
 This file contains:
 
 \-Timestamp of each run
@@ -80,7 +74,7 @@ This file contains:
 
 &nbsp;  cd Airline-Price-Prediction
 
-2\. Download the dataset from \[(https://www.kaggle.com/datasets/rohitgrewal/airlines-flights-data].
+2\. Download the dataset from \[https://www.kaggle.com/datasets/rohitgrewal/airlines-flights-data].
 
 &nbsp;  Save it in the Data/ folder as:
 
