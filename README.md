@@ -1,13 +1,13 @@
-\ ✈️ Airline Ticket Price Prediction (MLOps Project)
+✈️ Airline Ticket Price Prediction (MLOps Project)
 
-\ Overview
+Overview
 
 This project predicts airline ticket prices using machine learning and an MLOps-style pipeline.  
 
 It includes preprocessing, model training, testing, and experiment logging.
 
 
-\ Dataset
+Dataset
 
 The dataset is \*\*not included\*\* in this repository due to size limits.  
 
@@ -23,7 +23,7 @@ Columns include:
 
 
 
-\ Pipeline
+ Pipeline
 
 \- Config-driven design (`config.yaml`).
 
@@ -34,8 +34,7 @@ Columns include:
 \- Testing and logging (`test.py` → saves results to `experiments/results.csv`).
 
 
-
-\ Experiments
+Experiments
 
 Models tested:
 
@@ -49,7 +48,7 @@ Models tested:
 
 
 
-\*\*Best model\*\*: RandomForestRegressor with log-transform  
+*\*Best model\*\*: RandomForestRegressor with log-transform  
 
 \- MAE ≈ 2114  
 
@@ -58,10 +57,10 @@ Models tested:
 
 📊 Results
 
-\ All experiment logs are saved in: _experiments/results.csv_
+ All experiment logs are saved in: _experiments/results.csv_
 
 
-\This file contains:
+This file contains:
 
 \-Timestamp of each run
 \-Model type and parameters
@@ -71,7 +70,7 @@ Models tested:
 👉 If you only want to check results without downloading the dataset or running the pipeline, simply open experiments/results.csv.
 
 
-\ 🚀 How to Run
+🚀 How to Run
 
 1\. Clone the repository:
 
