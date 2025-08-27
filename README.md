@@ -1,16 +1,13 @@
-\# ✈️ Airline Ticket Price Prediction (MLOps Lab Project)
+\ ✈️ Airline Ticket Price Prediction (MLOps Project)
 
-
-
-\## Overview
+\ Overview
 
 This project predicts airline ticket prices using machine learning and an MLOps-style pipeline.  
 
 It includes preprocessing, model training, testing, and experiment logging.
 
 
-
-\## Dataset
+\ Dataset
 
 The dataset is \*\*not included\*\* in this repository due to size limits.  
 
@@ -26,7 +23,7 @@ Columns include:
 
 
 
-\## Pipeline
+\ Pipeline
 
 \- Config-driven design (`config.yaml`).
 
@@ -38,7 +35,7 @@ Columns include:
 
 
 
-\## Experiments
+\ Experiments
 
 Models tested:
 
@@ -59,33 +56,22 @@ Models tested:
 \- R² ≈ 0.969  
 
 
-All experiment results will be saved in:
-experiments/results.csv
-
 📊 Results
 
-All experiment logs are saved in:
-
-experiments/results.csv
+\ All experiment logs are saved in: _experiments/results.csv_
 
 
-This file contains:
+\This file contains:
 
-Timestamp of each run
-
-Model type and parameters
-
-Whether log-transform was applied
-
-Evaluation metrics (MAE, MSE, R²)
+\-Timestamp of each run
+\-Model type and parameters
+\-Whether log-transform was applied
+\-Evaluation metrics (MAE, MSE, R²)
 
 👉 If you only want to check results without downloading the dataset or running the pipeline, simply open experiments/results.csv.
 
 
-
-
-
-\## 🚀 How to Run
+\ 🚀 How to Run
 
 1\. Clone the repository:
 
@@ -112,12 +98,3 @@ Evaluation metrics (MAE, MSE, R²)
 5\. Test and log results:
 
 &nbsp;  type this cmd in the terminal:- python test.py
-
-
-
-
-
-All experiment results will be saved in:
-
-*experiments/results.csv*
-
